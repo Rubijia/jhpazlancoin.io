@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Azlan Coin (AZC)</title>
+  <meta name="description" content="Royal + modern community token on BNB Smart Chain">
+  <link rel="icon" href="./logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <div class="brand">
+        <img src="./logo.svg" alt="Azlan logo">
+        <strong>Azlan Coin <span class="sub">AZC</span></strong>
+      </div>
+      <button id="menuBtn" aria-label="menu">☰</button>
+      <nav id="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#whitepaper">Whitepaper</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="section hero">
+    <div class="wrap two">
+      <div class="card">
+        <h1>Royal + Modern <span class="badge">AZC</span></h1>
+        <p class="lead">Azlan Coin is a premium, community-first token on BNB Smart Chain focused on fair distribution, clear roadmap, and locked liquidity.</p>
+        <div class="cta">
+          <a class="btn" href="https://pancakeswap.finance/swap?outputCurrency=0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd" target="_blank" rel="noopener">Buy on PancakeSwap</a>
+          <a class="btn ghost" href="#whitepaper">Read Whitepaper</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><h3>10B</h3><span>Total Supply</span></div>
+          <div class="stat"><h3>18</h3><span>Decimals</span></div>
+          <div class="stat"><h3>AZC</h3><span>Symbol</span></div>
+        </div>
+      </div>
+      <aside class="card">
+        <h3>Token Snapshot</h3>
+        <div class="kv"><span>Contract</span><span><a href="https://bscscan.com/token/0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd" target="_blank">0xB9697B…AcedAd</a></span></div>
+        <div class="kv"><span>Chain</span><span>BNB Smart Chain (BEP‑20)</span></div>
+        <div class="kv"><span>DEX</span><span><a href="https://pancakeswap.finance/swap?outputCurrency=0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd" target="_blank">PancakeSwap V3</a></span></div>
+      </aside>
+    </div>
+  </main>
+
+  <section id="about" class="section">
+    <div class="wrap">
+      <div class="card">
+        <h2>About</h2>
+        <p class="lead">AZC brings a balanced token model with long-term incentives and transparent milestones. This site is lightweight and GitHub Pages friendly (root CSS/JS + .nojekyll).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tokenomics" class="section">
+    <div class="wrap">
+      <div class="card">
+        <h2>Tokenomics</h2>
+        <p class="lead">Sample distribution (editable in <code>script.js</code>).</p>
+        <div class="tok">
+          <canvas id="donut" width="280" height="280" aria-label="tokenomics chart"></canvas>
+          <div class="list">
+            <div class="kv"><strong>Liquidity Pool</strong><span>40%</span></div>
+            <div class="kv"><strong>Marketing & Partnerships</strong><span>30%</span></div>
+            <div class="kv"><strong>Development & Team</strong><span>20%</span></div>
+            <div class="kv"><strong>Reserve</strong><span>10%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="roadmap" class="section">
+    <div class="wrap">
+      <div class="card">
+        <h2>Roadmap</h2>
+        <div class="road">
+          <div><b>Q1</b> Launch, site live, LP, verification</div>
+          <div><b>Q2</b> Marketing push, listings, KOLs</div>
+          <div><b>Q3</b> Utility reveal, staking research, rewards</div>
+          <div><b>Q4</b> CEX outreach, ecosystem expansion</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="whitepaper" class="section">
+    <div class="wrap">
+      <div class="card center">
+        <h2>Whitepaper</h2>
+        <p class="lead">Download the latest whitepaper for full details.</p>
+        <a class="btn" href="./whitepaper.pdf" target="_blank">Download PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="wrap">
+      <div class="card">
+        <h2>Contact</h2>
+        <div class="kv"><span>Email</span><span><a href="mailto:contact@azlancoin.io">contact@azlancoin.io</a></span></div>
+        <div class="kv"><span>Telegram</span><span><a href="#" target="_blank">t.me/azlancoin</a></span></div>
+        <div class="kv"><span>Twitter</span><span><a href="#" target="_blank">@azlancoin</a></span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">© <span id="year"></span> Azlan Coin — Contract: <a href="https://bscscan.com/token/0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd" target="_blank">0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd</a></div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
